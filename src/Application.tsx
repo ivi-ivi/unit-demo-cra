@@ -8,6 +8,8 @@ export const Application: FC = () => {
   const home = <Home />;
   const about = <About />;
 
+  console.log('all good')
+
   return (
     <div>
       <nav>

@@ -16,10 +16,5 @@ export const TodoItem: FC<{ index: number }> = (props) => {
     [index, done, dispatch]
   );
 
-  return (
-    <div data-testid="list-item" className={done ? "done" : ""}>
-      <input type="checkbox" checked={done} onChange={onChange} />
-      {text}
-    </div>
-  );
+  return null
 };

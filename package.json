@@ -34,7 +34,8 @@
         "e2e": "playwright test --project=chromium && playwright show-report",
         "e2e-ci": "xvfb-run --auto-servernum npx playwright test --project=chromium",
         "test-ci": "CI=true npm test -- --reporters=\"default\" --reporters=\"jest-html-reporter\" --reporters=\"jest-teamcity\"",
-        "gh-pages": "gh-pages -d build"
+        "gh-pages": "gh-pages -d build",
+        "prepare": "husky install"
     },
     "eslintConfig": {
         "extends": [
